@@ -650,3 +650,26 @@ footer p:nth-child(2){
       line-height: 32px;
     }
   }
+
+
+
+
+  /* Skills  Animation  */
+
+  .cssBar{
+    animation: cssAnimate 4s ease-in-out;
+
+
+  }
+
+  @keyframes cssAnimate {
+    0% {
+      width :0%
+    }
+    20% {
+      width: 20%;
+    }
+    100%{
+      width: 80%;
+    }
+  }
